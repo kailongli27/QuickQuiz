@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">QuickQuiz</string>
+    <string name="question_dogs">Dogs are canines.</string>
+    <string name="question_oceans">There are four oceans on Earth.</string>
+    <string name="question_million">There are 10 zeroes in the number one million.</string>
+    <string name="question_squareroot">The square root of 100 is five.</string>
+    <string name="question_water">Water is also called H2O.</string>
+    <string name="question_fish">Fish sleep with their eyes closed.</string>
+    <string name="next_text">Next</string>
+    <string name="true_text">True</string>
+    <string name="false_text">False</string>
+    <string name="correct">Correct!</string>
+    <string name="incorrect">Incorrect</string>
+</resources>

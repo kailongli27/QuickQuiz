@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="386dp"
+        android:layout_height="257dp"
+        android:src="@drawable/quiz" />
+
+    <TextView
+        android:id="@+id/answer_text_view"
+        android:padding="8dp"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:text="@string/question_dogs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/true_button"
+            android:text="@string/true_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+        <Button
+            android:id="@+id/false_button"
+            android:text="@string/false_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/previous_button"
+            android:layout_width="wrap_content"
+            android:layout_height="96dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:contentDescription="@string/next_text"
+            android:scaleType="centerInside"
+            android:src="@drawable/previous">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="96dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:contentDescription="@string/next_text"
+            android:scaleType="centerInside"
+            android:src="@drawable/next">
+
+        </ImageButton>
+
+    </LinearLayout>
+
+</LinearLayout>
