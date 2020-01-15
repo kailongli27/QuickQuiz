@@ -7,3 +7,8 @@ An Android application that is a short and fun true or false quiz.
 
 - [Question class](app/src/main/java/com/example/truecitizenquiz/Question.java)
 
+Screenshot of application:
+<p align="center">
+      <img src="https://github.com/kailongli27/QuickQuiz/blob/master/QuickQuiz%20Screenshot.png" width="350" height="600" title = "AppScreenshot">
+</p
+
